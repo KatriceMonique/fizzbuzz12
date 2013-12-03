@@ -1,5 +1,5 @@
 require 'rspec'
-require 'fizzbuzz.rb'
+require 'fizzbuzz12.rb'
 
 describe 'fizzbuzz calculator' do
 	before do 

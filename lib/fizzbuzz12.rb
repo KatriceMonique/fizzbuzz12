@@ -1,6 +1,5 @@
-class Calculator
-	def calculate(num)
-
+	class Calculator
+		def calculate(num)
+		1
+		end
 	end
-
-end		
