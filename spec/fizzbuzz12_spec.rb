@@ -17,11 +17,22 @@ describe 'fizzbuzz calculator' do
 		@calculator.calculate(3).should == "fizz"
 	end
 
-	it 'returns 4 from 4'
-	it 'returns buzz from 5'
-	it 'returns fizz from 6'
-	it 'returns 7 from 7'
-	it 'returns buzz from 10'
-	it 'returns fizzbuzz from 15'
-	
+	it 'returns 4 from 4' do
+		@calculator.calculate(4).should == 4
+	end
+	it 'returns buzz from 5' do
+		@calculator.calculate(5).should == "buzz"
+	end
+	it 'returns fizz from 6' do
+		@calculator.calculate(6).should == "fizz"
+	end
+	it 'returns 7 from 7' do
+		@calculator.calculate(7).should == 7
+	end
+	it 'returns buzz from 10' do
+		@calculator.calculate(10).should == "buzz"
+	end
+	it 'returns fizzbuzz from 15' do
+		@calculator.calculate(15).should == "fizzbuzz"
+	end
 end
