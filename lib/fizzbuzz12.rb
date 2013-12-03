@@ -4,8 +4,10 @@
 				return 1
 			elsif num == 2
 				return 2
+			elsif num == 3
+				return "fizz"
 			else 
-				return "fail"
+				return "Fail"	
 			end	
 		end
 	end
